@@ -1,11 +1,11 @@
 <?php
 
-namespace Muhammad.dev.pro\AcelleMailerExtended;
+namespace MuhammadAcelleMailerExtended;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Muhammad.dev.pro\AcelleMailerExtended\Skeleton\SkeletonClass
+ * @see \MuhammadAcelleMailerExtended\Skeleton\SkeletonClass
  */
 class AcelleMailerExtendedFacade extends Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Muhammad.dev.pro\AcelleMailerExtended;
+namespace MuhammadAcelleMailerExtended;
 
 class AcelleMailerExtended
 {

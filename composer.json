@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Muhammad.dev.pro\\AcelleMailerExtended\\": "src"
+            "Muhammad\AcelleMailerExtended\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Muhammad.dev.pro\\AcelleMailerExtended\\Tests\\": "tests"
+            "Muhammad\AcelleMailerExtended\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Muhammad.dev.pro\\AcelleMailerExtended\\AcelleMailerExtendedServiceProvider"
+                "Muhammad\AcelleMailerExtended\\AcelleMailerExtendedServiceProvider"
             ],
             "aliases": {
-                "AcelleMailerExtended": "Muhammad.dev.pro\\AcelleMailerExtended\\AcelleMailerExtendedFacade"
+                "AcelleMailerExtended": "Muhammad\AcelleMailerExtended\\AcelleMailerExtendedFacade"
             }
         }
     }

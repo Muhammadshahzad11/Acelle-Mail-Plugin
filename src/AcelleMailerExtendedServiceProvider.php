@@ -1,6 +1,6 @@
 <?php
 
-namespace Muhammad.dev.pro\AcelleMailerExtended;
+namespace MuhammadAcelleMailerExtended;
 
 use Illuminate\Support\ServiceProvider;
 
