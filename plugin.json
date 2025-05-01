@@ -6,45 +6,9 @@
     "author": "Muhammad Shahzad",
     "url": "https://github.com/Muhammadshahzad11/Acelle-Mail-Plugin",
     "namespace": "Acelle\\Plugins\\RotaryMailScheduler",
+    "settings": {},
     "type": "plugin",
     "required_acellemail_version": "5.0.0",
-    "settings": {
-        "min_per_minute": {
-            "title": "Minimum emails/minute",
-            "value": "5",
-            "type": "number"
-        },
-        "max_per_minute": {
-            "title": "Maximum emails/minute",
-            "value": "20",
-            "type": "number"
-        },
-        "min_per_hour": {
-            "title": "Minimum emails/hour",
-            "value": "100",
-            "type": "number"
-        },
-        "max_per_hour": {
-            "title": "Maximum emails/hour",
-            "value": "500",
-            "type": "number"
-        },
-        "min_per_day": {
-            "title": "Minimum emails/day",
-            "value": "1000",
-            "type": "number"
-        },
-        "max_per_day": {
-            "title": "Maximum emails/day",
-            "value": "5000",
-            "type": "number"
-        },
-        "enable_threading": {
-            "title": "Enable Threaded Sending",
-            "value": "true",
-            "type": "checkbox"
-        }
-    },
     "capabilities": [
         "email_rotation",
         "send_throttling",
