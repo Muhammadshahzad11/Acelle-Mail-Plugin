@@ -1,20 +1,20 @@
 {
   "name": "acelle/rotarymail-scheduler",
-  "description": "Email rotation and throttling plugin for AcelleMail",
+  "description": "Advanced email rotation and throttling for AcelleMail",
   "type": "acelle-plugin",
+  "license": "MIT",
   "require": {
-      "php": "^7.3|^8.0",
-      "acellemail/acellemail": "^5.0"
+    "php": "^8.0",
+    "acellemail/acellemail": "^5.0"
   },
   "autoload": {
-      "psr-4": {
-          "Acelle\\Plugins\\RotaryMailScheduler\\": "src/"
-      }
+    "psr-4": {
+      "Acelle\\Plugins\\RotaryMailScheduler\\": "src/"
+    }
   },
   "extra": {
-      "acelle-plugin": {
-          "name": "rotarymail-scheduler",
-          "title": "RotaryMail Scheduler"
-      }
+    "acelle": {
+      "name": "rotarymail-scheduler"
+    }
   }
 }

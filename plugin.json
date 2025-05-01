@@ -1,6 +1,6 @@
 {
     "name": "rotarymail-scheduler",
-    "title": "RotaryMail Scheduler",
+    "title": "rotarymail-scheduler",
     "description": "Advanced email rotation and throttling system for AcelleMail with threaded sending capabilities",
     "version": "1.0.0",
     "author": "Muhammad Shahzad",
