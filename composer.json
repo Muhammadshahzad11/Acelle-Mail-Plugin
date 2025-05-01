@@ -1,0 +1,22 @@
+{
+  "name": "muhammadshahzad/rotarymail-scheduler",
+  "description": "Laravel package for email rotation and throttling",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Muhammadshahzad\\RotaryMailScheduler\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Muhammadshahzad\\RotaryMailScheduler\\RotaryMailSchedulerServiceProvider"
+      ]
+    }
+  }
+}
