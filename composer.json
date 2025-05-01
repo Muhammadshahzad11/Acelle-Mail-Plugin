@@ -1,54 +1,20 @@
 {
-    "name": "muhammad.dev.pro/acelle-mailer-extended",
-    "description": "An extended package for acelle mail plugin.",
-    "keywords": [
-        "muhammad.dev.pro",
-        "acelle-mailer-extended"
-    ],
-    "homepage": "https://github.com/muhammad.dev.pro/acelle-mailer-extended",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Shah Sawood",
-            "email": "shahsawoodshinwari@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Muhammad\AcelleMailerExtended\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Muhammad\AcelleMailerExtended\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Muhammad\AcelleMailerExtended\\AcelleMailerExtendedServiceProvider"
-            ],
-            "aliases": {
-                "AcelleMailerExtended": "Muhammad\AcelleMailerExtended\\AcelleMailerExtendedFacade"
-            }
-        }
-    }
+  "name": "acelle/rotarymail-scheduler",
+  "description": "Email rotation and throttling plugin for AcelleMail",
+  "type": "acelle-plugin",
+  "require": {
+      "php": "^7.3|^8.0",
+      "acellemail/acellemail": "^5.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "Acelle\\Plugins\\RotaryMailScheduler\\": "src/"
+      }
+  },
+  "extra": {
+      "acelle-plugin": {
+          "name": "rotarymail-scheduler",
+          "title": "RotaryMail Scheduler"
+      }
+  }
 }
